@@ -1,7 +1,7 @@
 .container {
 	position: absolute;
-	width: 160px;
-	height: 600px;
+	width: 728px;
+	height: 90px;
 	background-color:#fff;
 	overflow: hidden;
 	border: black solid 1px;
@@ -43,8 +43,8 @@ body{
 	position: absolute;
 	background-color: black;
 	opacity: 0.6;
-	width: 160px;
-	height: 294px;
+	width: 364px;
+	height: 90px;
 	top: 0px;
 	/*left:115px;*/
 
@@ -400,20 +400,20 @@ body{
 
 
 @-webkit-keyframes bk_animation {
-	0% {left:-50px;}
-	100%{left:0px;}
+	0% {top:-50px;}
+	100%{top:0px;}
 }
 
 @-webkit-keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
+	0% {top:90px;}
+	20% {top:90px;}
 	25%{top: 0px;}
 	100%{top: 0px;}
 }
 
 @-webkit-keyframes logo_animation {
-	0% {left:300px;}
-	18% {left:300px;}
+	0% {left:-300px;}
+	18% {left:-300px;}
 	25%{left: 0px;}
 	100%{left: 0px;}
 }
@@ -532,20 +532,20 @@ body{
 
 
 @-moz-keyframes bk_animation {
-	0% {left:-50px;}
-	100%{left:0px;}
+	0% {top:-50px;}
+	100%{top:0px;}
 }
 
 @-moz-keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
+	0% {top:90px;}
+	20% {top:90px;}
 	25%{top: 0px;}
 	100%{top: 0px;}
 }
 
 @-moz-keyframes logo_animation {
-	0% {left:300px;}
-	18% {left:300px;}
+	0% {left:-300px;}
+	18% {left:-300px;}
 	25%{left: 0px;}
 	100%{left: 0px;}
 }
@@ -664,20 +664,20 @@ body{
 
 
 @keyframes bk_animation {
-	0% {left:-50px;}
-	100%{left:0px;}
+	0% {top:-50px;}
+	100%{top:0px;}
 }
 
 @keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
+	0% {top:90px;}
+	20% {top:90px;}
 	25%{top: 0px;}
 	100%{top: 0px;}
 }
 
 @keyframes logo_animation {
-	0% {left:300px;}
-	18% {left:300px;}
+	0% {left:-300px;}
+	18% {left:-300px;}
 	25%{left: 0px;}
 	100%{left: 0px;}
 }

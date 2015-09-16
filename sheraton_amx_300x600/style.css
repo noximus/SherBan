@@ -1,6 +1,6 @@
 .container {
 	position: absolute;
-	width: 160px;
+	width: 300px;
 	height: 600px;
 	background-color:#fff;
 	overflow: hidden;
@@ -43,9 +43,9 @@ body{
 	position: absolute;
 	background-color: black;
 	opacity: 0.6;
-	width: 160px;
-	height: 294px;
-	top: 0px;
+	width: 300px;
+	height: 250px;
+	left: -300px;
 	/*left:115px;*/
 
 
@@ -332,28 +332,6 @@ body{
 	animation-timing-function: ease-out;
 }
 
-#text02F{
-	position: absolute;
-	top:0;
-	left: 0;
-	opacity: 0;
-
-	-webkit-animation: text02E_animation 10s;
-	-webkit-animation-delay: 0s;
-	-webkit-animation-fill-mode: forwards;
-	-webkit-animation-timing-function: ease-out;
-
-	-moz-animation: text02E_animation 10s;
-	-moz-animation-delay: 0s;
-	-moz-animation-fill-mode: forwards;
-	-moz-animation-timing-function: ease-out;
-
-	animation: text02E_animation 10s;
-	animation-delay: 0s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-out;
-}
-
 #bookNow{
 	position: absolute;
 	top:0;
@@ -405,10 +383,10 @@ body{
 }
 
 @-webkit-keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
-	25%{top: 0px;}
-	100%{top: 0px;}
+	0% {left:-300px;}
+	20% {left:-300px;}
+	25%{left: 0px;}
+	100%{left: 0px;}
 }
 
 @-webkit-keyframes logo_animation {
@@ -500,12 +478,7 @@ body{
 	77%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
-@-webkit-keyframes text02E_animation {
-	0% {top:125px; opacity: 0;}
-	68% {top:125px; opacity: 0;}
-	77%{top: 0px; opacity: 1;}
-	100%{top: 0px; opacity: 1;}
-}
+
 @-webkit-keyframes AElogo_animation {
 	0% {top:25px; opacity: 0;}
 	80% {top:25px; opacity: 0;}
@@ -521,7 +494,7 @@ body{
 	100%{top: 0px; opacity: 1;}
 }
 
-@-webkit-keyframes text02F_animation {
+@-webkit-keyframes text02E_animation {
 	0% {top:15px; opacity: 0;}
 	83% {top:15px; opacity: 0;}
 	88%{top: 0px; opacity: 1;}
@@ -537,10 +510,10 @@ body{
 }
 
 @-moz-keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
-	25%{top: 0px;}
-	100%{top: 0px;}
+	0% {left:-300px;}
+	20% {left:-300px;}
+	25%{left: 0px;}
+	100%{left: 0px;}
 }
 
 @-moz-keyframes logo_animation {
@@ -632,12 +605,7 @@ body{
 	77%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
-@-moz-keyframes text02E_animation {
-	0% {top:125px; opacity: 0;}
-	68% {top:125px; opacity: 0;}
-	77%{top: 0px; opacity: 1;}
-	100%{top: 0px; opacity: 1;}
-}
+
 @-moz-keyframes AElogo_animation {
 	0% {top:25px; opacity: 0;}
 	80% {top:25px; opacity: 0;}
@@ -652,13 +620,13 @@ body{
 	86%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
-@-moz-keyframes text02F_animation {
+
+@-moz-keyframes text02E_animation {
 	0% {top:15px; opacity: 0;}
 	83% {top:15px; opacity: 0;}
 	88%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
-
 
 
 
@@ -669,10 +637,10 @@ body{
 }
 
 @keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
-	25%{top: 0px;}
-	100%{top: 0px;}
+	0% {left:-300px;}
+	20% {left:-300px;}
+	25%{left: 0px;}
+	100%{left: 0px;}
 }
 
 @keyframes logo_animation {
@@ -765,12 +733,6 @@ body{
 	100%{top: 0px; opacity: 1;}
 }
 
-@keyframes text02E_animation {
-	0% {top:125px; opacity: 0;}
-	68% {top:125px; opacity: 0;}
-	77%{top: 0px; opacity: 1;}
-	100%{top: 0px; opacity: 1;}
-}
 @keyframes AElogo_animation {
 	0% {top:25px; opacity: 0;}
 	80% {top:25px; opacity: 0;}
@@ -786,7 +748,7 @@ body{
 	100%{top: 0px; opacity: 1;}
 }
 
-@keyframes text02F_animation {
+@keyframes text02E_animation {
 	0% {top:15px; opacity: 0;}
 	83% {top:15px; opacity: 0;}
 	88%{top: 0px; opacity: 1;}
