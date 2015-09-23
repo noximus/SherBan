@@ -44,7 +44,7 @@ body{
 	background-color: black;
 	opacity: 0.6;
 	width: 160px;
-	height: 294px;
+	height: 317px;
 	top: 0px;
 	/*left:115px;*/
 
@@ -405,8 +405,8 @@ body{
 }
 
 @-webkit-keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
+	0% {top:-317px;}
+	20% {top:-317px;}
 	25%{top: 0px;}
 	100%{top: 0px;}
 }
@@ -537,8 +537,8 @@ body{
 }
 
 @-moz-keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
+	0% {top:-317px;}
+	20% {top:-317px;}
 	25%{top: 0px;}
 	100%{top: 0px;}
 }
@@ -659,18 +659,14 @@ body{
 	100%{top: 0px; opacity: 1;}
 }
 
-
-
-
-
 @keyframes bk_animation {
 	0% {left:-50px;}
 	100%{left:0px;}
 }
 
 @keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
+	0% {top:-317px;}
+	20% {top:-317px;}
 	25%{top: 0px;}
 	100%{top: 0px;}
 }

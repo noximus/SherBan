@@ -43,7 +43,7 @@ body{
 	position: absolute;
 	background-color: black;
 	opacity: 0.6;
-	width: 364px;
+	width: 250px;
 	height: 90px;
 	top: 0px;
 	/*left:115px;*/
@@ -405,10 +405,12 @@ body{
 }
 
 @-webkit-keyframes blackBox_animation {
-	0% {top:90px;}
-	20% {top:90px;}
-	25%{top: 0px;}
-	100%{top: 0px;}
+	0% {top:90px;width: 343px}
+	20% {top:90px;width: 343px}
+	25%{top: 0px;width: 343px}
+	60%{top: 0px;width: 343px}
+	65%{top: 0px;width: 411px}
+	100%{top: 0px;width: 411px}
 }
 
 @-webkit-keyframes logo_animation {
@@ -537,10 +539,12 @@ body{
 }
 
 @-moz-keyframes blackBox_animation {
-	0% {top:90px;}
-	20% {top:90px;}
-	25%{top: 0px;}
-	100%{top: 0px;}
+	0% {top:90px;width: 343px}
+	20% {top:90px;width: 343px}
+	25%{top: 0px;width: 343px}
+	60%{top: 0px;width: 343px}
+	65%{top: 0px;width: 411px}
+	100%{top: 0px;width: 411px}
 }
 
 @-moz-keyframes logo_animation {
@@ -669,10 +673,12 @@ body{
 }
 
 @keyframes blackBox_animation {
-	0% {top:90px;}
-	20% {top:90px;}
-	25%{top: 0px;}
-	100%{top: 0px;}
+	0% {top:90px;width: 343px}
+	20% {top:90px;width: 343px}
+	25%{top: 0px;width: 343px}
+	60%{top: 0px;width: 343px}
+	65%{top: 0px;width: 411px}
+	100%{top: 0px;width: 411px}
 }
 
 @keyframes logo_animation {
