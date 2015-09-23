@@ -331,24 +331,108 @@ body{
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-out;
 }
-
 #text02F{
 	position: absolute;
 	top:0;
 	left: 0;
 	opacity: 0;
 
-	-webkit-animation: text02E_animation 10s;
+	-webkit-animation: text02F_animation 10s;
 	-webkit-animation-delay: 0s;
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-timing-function: ease-out;
 
-	-moz-animation: text02E_animation 10s;
+	-moz-animation: text02F_animation 10s;
 	-moz-animation-delay: 0s;
 	-moz-animation-fill-mode: forwards;
 	-moz-animation-timing-function: ease-out;
 
-	animation: text02E_animation 10s;
+	animation: text02F_animation 10s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+#text02G{
+	position: absolute;
+	top:0;
+	left: 0;
+	opacity: 0;
+
+	-webkit-animation: text02G_animation 10s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+
+	-moz-animation: text02G_animation 10s;
+	-moz-animation-delay: 0s;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-timing-function: ease-out;
+
+	animation: text02G_animation 10s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+#text02H{
+	position: absolute;
+	top:0;
+	left: 0;
+	opacity: 0;
+
+	-webkit-animation: text02H_animation 10s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+
+	-moz-animation: text02H_animation 10s;
+	-moz-animation-delay: 0s;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-timing-function: ease-out;
+
+	animation: text02H_animation 10s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+#text02I{
+	position: absolute;
+	top:0;
+	left: 0;
+	opacity: 0;
+
+	-webkit-animation: text02I_animation 10s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+
+	-moz-animation: text02I_animation 10s;
+	-moz-animation-delay: 0s;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-timing-function: ease-out;
+
+	animation: text02I_animation 10s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+
+#text02Term{
+	position: absolute;
+	top:0;
+	left: 0;
+	opacity: 0;
+
+	-webkit-animation: text02Term_animation 10s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+
+	-moz-animation: text02Term_animation 10s;
+	-moz-animation-delay: 0s;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-timing-function: ease-out;
+
+	animation: text02Term_animation 10s;
 	animation-delay: 0s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-out;
@@ -493,9 +577,7 @@ body{
 	67% {top:125px; opacity: 0;}
 	76%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
-	
 }
-
 @-webkit-keyframes text02D_animation {
 	0% {top:125px; opacity: 0;}
 	68% {top:125px; opacity: 0;}
@@ -504,8 +586,32 @@ body{
 }
 @-webkit-keyframes text02E_animation {
 	0% {top:125px; opacity: 0;}
-	68% {top:125px; opacity: 0;}
-	77%{top: 0px; opacity: 1;}
+	69% {top:125px; opacity: 0;}
+	78%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-webkit-keyframes text02F_animation {
+	0% {top:125px; opacity: 0;}
+	70% {top:125px; opacity: 0;}
+	79%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-webkit-keyframes text02G_animation {
+	0% {top:125px; opacity: 0;}
+	71% {top:125px; opacity: 0;}
+	80%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-webkit-keyframes text02H_animation {
+	0% {top:125px; opacity: 0;}
+	72% {top:125px; opacity: 0;}
+	81%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-webkit-keyframes text02I_animation {
+	0% {top:125px; opacity: 0;}
+	73% {top:125px; opacity: 0;}
+	82%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
 @-webkit-keyframes AElogo_animation {
@@ -523,7 +629,7 @@ body{
 	100%{top: 0px; opacity: 1;}
 }
 
-@-webkit-keyframes text02F_animation {
+@-webkit-keyframes text02Term_animation {
 	0% {top:15px; opacity: 0;}
 	83% {top:15px; opacity: 0;}
 	88%{top: 0px; opacity: 1;}
@@ -638,10 +744,35 @@ body{
 }
 @-moz-keyframes text02E_animation {
 	0% {top:125px; opacity: 0;}
-	68% {top:125px; opacity: 0;}
-	77%{top: 0px; opacity: 1;}
+	69% {top:125px; opacity: 0;}
+	78%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
+@-moz-keyframes text02F_animation {
+	0% {top:125px; opacity: 0;}
+	70% {top:125px; opacity: 0;}
+	79%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-moz-keyframes text02G_animation {
+	0% {top:125px; opacity: 0;}
+	71% {top:125px; opacity: 0;}
+	80%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-moz-keyframes text02H_animation {
+	0% {top:125px; opacity: 0;}
+	72% {top:125px; opacity: 0;}
+	81%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-moz-keyframes text02I_animation {
+	0% {top:125px; opacity: 0;}
+	73% {top:125px; opacity: 0;}
+	82%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+
 @-moz-keyframes AElogo_animation {
 	0% {top:25px; opacity: 0;}
 	80% {top:25px; opacity: 0;}
@@ -656,7 +787,7 @@ body{
 	86%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
-@-moz-keyframes text02F_animation {
+@-moz-keyframes text02Term_animation {
 	0% {top:15px; opacity: 0;}
 	83% {top:15px; opacity: 0;}
 	88%{top: 0px; opacity: 1;}
@@ -773,8 +904,32 @@ body{
 
 @keyframes text02E_animation {
 	0% {top:125px; opacity: 0;}
-	68% {top:125px; opacity: 0;}
-	77%{top: 0px; opacity: 1;}
+	69% {top:125px; opacity: 0;}
+	78%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@keyframes text02F_animation {
+	0% {top:125px; opacity: 0;}
+	70% {top:125px; opacity: 0;}
+	79%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@keyframes text02G_animation {
+	0% {top:125px; opacity: 0;}
+	71% {top:125px; opacity: 0;}
+	80%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@keyframes text02H_animation {
+	0% {top:125px; opacity: 0;}
+	72% {top:125px; opacity: 0;}
+	81%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@keyframes text02I_animation {
+	0% {top:125px; opacity: 0;}
+	73% {top:125px; opacity: 0;}
+	82%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
 @keyframes AElogo_animation {
@@ -792,7 +947,7 @@ body{
 	100%{top: 0px; opacity: 1;}
 }
 
-@keyframes text02F_animation {
+@keyframes text02Term_animation {
 	0% {top:15px; opacity: 0;}
 	83% {top:15px; opacity: 0;}
 	88%{top: 0px; opacity: 1;}

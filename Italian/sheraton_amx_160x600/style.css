@@ -44,7 +44,7 @@ body{
 	background-color: black;
 	opacity: 0.6;
 	width: 160px;
-	height: 294px;
+	height: 250px;
 	top: 0px;
 	/*left:115px;*/
 
@@ -338,22 +338,63 @@ body{
 	left: 0;
 	opacity: 0;
 
-	-webkit-animation: text02E_animation 10s;
+	-webkit-animation: text02F_animation 10s;
 	-webkit-animation-delay: 0s;
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-timing-function: ease-out;
 
-	-moz-animation: text02E_animation 10s;
+	-moz-animation: text02F_animation 10s;
 	-moz-animation-delay: 0s;
 	-moz-animation-fill-mode: forwards;
 	-moz-animation-timing-function: ease-out;
 
-	animation: text02E_animation 10s;
+	animation: text02F_animation 10s;
 	animation-delay: 0s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-out;
 }
+#text02G{
+	position: absolute;
+	top:0;
+	left: 0;
+	opacity: 0;
 
+	-webkit-animation: text02G_animation 10s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+
+	-moz-animation: text02G_animation 10s;
+	-moz-animation-delay: 0s;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-timing-function: ease-out;
+
+	animation: text02G_animation 10s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+#text02Term{
+	position: absolute;
+	top:0;
+	left: 0;
+	opacity: 0;
+
+	-webkit-animation: text02Term_animation 10s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+
+	-moz-animation: text02Term_animation 10s;
+	-moz-animation-delay: 0s;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-timing-function: ease-out;
+
+	animation: text02Term_animation 10s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
 #bookNow{
 	position: absolute;
 	top:0;
@@ -405,10 +446,12 @@ body{
 }
 
 @-webkit-keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
-	25%{top: 0px;}
-	100%{top: 0px;}
+	0% {top:-300px;height: 250px;}
+	20% {top:-300px;height: 250px;}
+	25%{top: 0px;height: 250px;}
+	60%{top: 0px;height: 250px;}
+	65%{top: 0px;height: 323px;}
+	100%{top: 0px;height: 323px;}
 }
 
 @-webkit-keyframes logo_animation {
@@ -502,8 +545,26 @@ body{
 }
 @-webkit-keyframes text02E_animation {
 	0% {top:125px; opacity: 0;}
-	68% {top:125px; opacity: 0;}
-	77%{top: 0px; opacity: 1;}
+	69% {top:125px; opacity: 0;}
+	78%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-webkit-keyframes text02F_animation {
+	0% {top:125px; opacity: 0;}
+	70% {top:125px; opacity: 0;}
+	79%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-webkit-keyframes text02G_animation {
+	0% {top:125px; opacity: 0;}
+	71% {top:125px; opacity: 0;}
+	80%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-webkit-keyframes text02Term_animation {
+	0% {top:125px; opacity: 0;}
+	83% {top:125px; opacity: 0;}
+	88%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
 @-webkit-keyframes AElogo_animation {
@@ -516,20 +577,9 @@ body{
 
 @-webkit-keyframes bookNow_animation {
 	0% {top:25px; opacity: 0;}
-	81% {top:25px; opacity: 0;}
-	86%{top: 0px; opacity: 1;}
+	95% {top:25px; opacity: 0;}
 	100%{top: 0px; opacity: 1;}
 }
-
-@-webkit-keyframes text02F_animation {
-	0% {top:15px; opacity: 0;}
-	83% {top:15px; opacity: 0;}
-	88%{top: 0px; opacity: 1;}
-	100%{top: 0px; opacity: 1;}
-}
-
-
-
 
 @-moz-keyframes bk_animation {
 	0% {left:-50px;}
@@ -537,10 +587,12 @@ body{
 }
 
 @-moz-keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
-	25%{top: 0px;}
-	100%{top: 0px;}
+	0% {top:-300px;height: 250px;}
+	20% {top:-300px;height: 250px;}
+	25%{top: 0px;height: 250px;}
+	60%{top: 0px;height: 250px;}
+	65%{top: 0px;height: 323px;}
+	100%{top: 0px;height: 323px;}
 }
 
 @-moz-keyframes logo_animation {
@@ -638,6 +690,24 @@ body{
 	77%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
+@-moz-keyframes text02F_animation {
+	0% {top:125px; opacity: 0;}
+	70% {top:125px; opacity: 0;}
+	79%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-moz-keyframes text02G_animation {
+	0% {top:125px; opacity: 0;}
+	71% {top:125px; opacity: 0;}
+	80%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@-moz-keyframes text02Term_animation {
+	0% {top:125px; opacity: 0;}
+	83% {top:125px; opacity: 0;}
+	88%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
 @-moz-keyframes AElogo_animation {
 	0% {top:25px; opacity: 0;}
 	80% {top:25px; opacity: 0;}
@@ -648,20 +718,9 @@ body{
 
 @-moz-keyframes bookNow_animation {
 	0% {top:25px; opacity: 0;}
-	81% {top:25px; opacity: 0;}
-	86%{top: 0px; opacity: 1;}
+	95% {top:25px; opacity: 0;}
 	100%{top: 0px; opacity: 1;}
 }
-@-moz-keyframes text02F_animation {
-	0% {top:15px; opacity: 0;}
-	83% {top:15px; opacity: 0;}
-	88%{top: 0px; opacity: 1;}
-	100%{top: 0px; opacity: 1;}
-}
-
-
-
-
 
 @keyframes bk_animation {
 	0% {left:-50px;}
@@ -669,10 +728,12 @@ body{
 }
 
 @keyframes blackBox_animation {
-	0% {top:-300px;}
-	20% {top:-300px;}
-	25%{top: 0px;}
-	100%{top: 0px;}
+	0% {top:-300px;height: 250px;}
+	20% {top:-300px;height: 250px;}
+	25%{top: 0px;height: 250px;}
+	60%{top: 0px;height: 250px;}
+	65%{top: 0px;height: 323px;}
+	100%{top: 0px;height: 323px;}
 }
 
 @keyframes logo_animation {
@@ -771,6 +832,24 @@ body{
 	77%{top: 0px; opacity: 1;}
 	100%{top: 0px; opacity: 1;}
 }
+@keyframes text02F_animation {
+	0% {top:125px; opacity: 0;}
+	70% {top:125px; opacity: 0;}
+	79%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@keyframes text02G_animation {
+	0% {top:125px; opacity: 0;}
+	71% {top:125px; opacity: 0;}
+	80%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
+@keyframes text02Term_animation {
+	0% {top:125px; opacity: 0;}
+	83% {top:125px; opacity: 0;}
+	88%{top: 0px; opacity: 1;}
+	100%{top: 0px; opacity: 1;}
+}
 @keyframes AElogo_animation {
 	0% {top:25px; opacity: 0;}
 	80% {top:25px; opacity: 0;}
@@ -781,14 +860,6 @@ body{
 
 @keyframes bookNow_animation {
 	0% {top:25px; opacity: 0;}
-	81% {top:25px; opacity: 0;}
-	86%{top: 0px; opacity: 1;}
-	100%{top: 0px; opacity: 1;}
-}
-
-@keyframes text02F_animation {
-	0% {top:15px; opacity: 0;}
-	83% {top:15px; opacity: 0;}
-	88%{top: 0px; opacity: 1;}
+	90% {top:25px; opacity: 0;}
 	100%{top: 0px; opacity: 1;}
 }
